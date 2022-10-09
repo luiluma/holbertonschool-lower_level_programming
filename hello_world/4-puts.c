@@ -1,22 +1,26 @@
 #include <stdio.h>
+
+
+
 /**
  *
- *  * main - Entry point
+ *  * main - punto de entrada
  *
- *   */
+ *   *
  *
- *    * Descripcion: punto "Programming is like building a multilingual puzzle"
+ *    * Description: punto "Programming is like building a multilingual puzzle"
  *
- *     */
+ *     *
  *
  *      * Return: Always 0 (Suceso)
  *
  *       */
+
 int main(void)
 
 {
 
- puts("\"Programming is like building a multilingual puzzle");
+puts("\"Programming is like building a multilingual puzzle");
 
   return (0);
 
