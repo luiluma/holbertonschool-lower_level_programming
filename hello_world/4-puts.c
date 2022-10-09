@@ -4,11 +4,11 @@
 
 /**
  *
- *  * main - punto de entrada
+ *  */ main - punto de entrada
  *
  *   *
  *
- *    * Description: punto "Programming is like building a multilingual puzzle"
+ *    */ Description: punto "Programming is like building a multilingual puzzle"
  *
  *     *
  *
