@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/**
+ * main - Punto de entrada
+ *
+ * Return: Always 0 (suceso)
+ */
 int main(void)
 
 {
