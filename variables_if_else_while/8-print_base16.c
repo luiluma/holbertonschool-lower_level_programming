@@ -6,25 +6,14 @@
  */
 int main(void)
 {
-int n = 0;
-while (n < 10)
-{
-putchar('0' + n);
+	int n = 0;
+	char letter = 'a';
 
-if (n == 9)
+	for (n = 0; n < 10; n++)
+		putchar (n);
 
-{
-putchar('\n');
-
-break;
-}
-else
-{
-
-putchar(' ');
-n++;
-}
-}
+	for (letter = 'a'; letter <= 'f'; leteer++)
+		putchar (letter);
 
 return (0);
 }
