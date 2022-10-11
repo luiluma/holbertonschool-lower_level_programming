@@ -3,6 +3,11 @@
  * main - 
  * Return: 0
  */
+
+/*
+ * print_alphabet - prints the alphabet, in lowercase, followed by a new line 
+ */
+
 void print_alphabet(void)
 
 {
@@ -14,5 +19,5 @@ char letter = 'a';
 
 	_putchar('\n');
 
-return (0);
+return(0);
 }
