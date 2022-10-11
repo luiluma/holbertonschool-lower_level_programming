@@ -1,14 +1,22 @@
-#include <main.h>
-#include <stdio.h>
+#include "main.h"
 /**
  *main.h - prints _putchar
  *
  *Return: 0
  */
 
-int main.h(void)
+int main(void)
+{
 
-putchar('_putchar');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
 
-putchar('\n');
-return (0);
+	putchar('\n');
+
+	return (0);
+}
