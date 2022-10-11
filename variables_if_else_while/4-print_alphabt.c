@@ -21,7 +21,7 @@ putchar (a);
 a++;
 }
 
-{
+}
 putchar ('\n');
 a++;
 return (0);
