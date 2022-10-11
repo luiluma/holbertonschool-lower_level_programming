@@ -4,21 +4,28 @@
  *
  *Return: 0
 */
-int main(void)
+
+ int main(void)
+
 {
-char a = 'a';
-char z = 'A';
+	char a = 'a';
+	char z = 'A';
 
 while (a <= 'z')
+
 {
-putchar (a);
-a++;
+	putchar (a);
+	a++;
 }
+
 while (z <= 'Z')
+
 {
-putchar (z);
-z++;
+	putchar (z);
+	z++;
 }
-putchar ('\n');
+	putchar ('\n');
+
 return (0);
+
 }
