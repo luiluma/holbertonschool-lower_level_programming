@@ -21,7 +21,7 @@ break;
 else
 {
 
-putchar();
+putchar(' ');
 n++;
 }
 }
