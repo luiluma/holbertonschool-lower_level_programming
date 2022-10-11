@@ -7,8 +7,8 @@
 
  int main(void)
 {
-char = a 'a';
-char = z 'A';
+char a = 'a';
+char z = 'A';
 
 while (a <= 'z')
 {
@@ -20,6 +20,6 @@ while (z <= 'Z')
 putchar (z);
 z++;
 }
-putchar ("\n")
+putchar ('\n')
 return 0;
 }
