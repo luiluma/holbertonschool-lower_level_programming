@@ -1,5 +1,4 @@
 #include "main.h"
-#include <ctype.h>
 /*
  * _islower - verifica si una letra es minuscula
  *
@@ -8,13 +7,8 @@
  *Return: 1 if c is lowercase, 0 otherwise
  */
 
-int _islower(int; c);
-
-int c
+int _islower(int c);
 {
-	char ch;
-
-	ch = 'c';
 
 	if (c >= 'a' && c <= 'z')
 
