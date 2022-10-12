@@ -3,17 +3,19 @@
 /**
   *add - adds two integers
   *
-  *@n: first integer
-  *@m: second integer
+  *@a: first integer
+  *@b: second integer
   *
   *Return: sum of integer
   */
 
-int add(int n, int m)
+int add(int a, int b)
 {
 
-	int sum = n + m;
+	int c;
+	
+	c = a + b;
 
 
-		return (sum);
+		return (c);
 }
