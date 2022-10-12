@@ -1,13 +1,13 @@
 #include "main.h"
 /**
-  *print_asign - the sign of a number
+  *print_sign - the sign of a number
   *
   *@n: the number to check
   *
   *Return: 1 and prints + 0 and prints -1 and prints
   */
 
-int print_asign(int n)
+int print_sign(int n)
 {
 	if (n > 0)
 
