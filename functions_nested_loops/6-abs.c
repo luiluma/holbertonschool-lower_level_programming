@@ -9,16 +9,15 @@
    *
    *Retorno: 0
    */
-int _abs(int a)
+int _abs(int r)
 {
-	if (a < 0)
-
+	if (r < 0)
 	{
-	a = a - 1;
+		r = r * -1;
 
 	}
 
-	return (a);
+	return (r);
 
 }
 
