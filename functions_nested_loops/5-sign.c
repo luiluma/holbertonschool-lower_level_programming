@@ -6,7 +6,7 @@
   *
   */
 
-int _print_sign(in n)
+int _print_sign(int n)
 
 {
 if (n > 0)
