@@ -7,9 +7,9 @@
  *Return: 1 if c is lowercase, 0 otherwise
  */
 
-int islower(int c)
+int _islower(int c)
 
-r = islower(c);
+	char c;
 {
 
 	if (c >= 'a' && c <= 'z')
