@@ -20,7 +20,7 @@ int i;
 	for (n = 'a'; n <= 'z'; n++)
 	{
 
-		_putchar(i);
+		_putchar(n);
 	}
 
 	_putchar('\n');
