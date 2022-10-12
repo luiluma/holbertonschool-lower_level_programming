@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <limits.h>
 /**
    *_abs - calcula el valor absoluto de un entero
    *
@@ -19,8 +18,6 @@ int _abs(int a)
 
 		return (a);
 	}
-	else
 
-		return (a);
 }
 
