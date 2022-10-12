@@ -9,8 +9,8 @@
 
 int islower(int c)
 
-	char c;
 {
+	char c;
 
 	if (c >= 'a' && c <= 'z')
 
