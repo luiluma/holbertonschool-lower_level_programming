@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <unistd.h>
-
+#include <ctype.h>
 /*prototype*/
 
 int _putchar(char c);
