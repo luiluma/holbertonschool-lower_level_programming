@@ -9,7 +9,7 @@
 
 int islower(int c)
 
-int = islower(c);
+r = islower(c);
 {
 
 	if (c >= 'a' && c <= 'z')
