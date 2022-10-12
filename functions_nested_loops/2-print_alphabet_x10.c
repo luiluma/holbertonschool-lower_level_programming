@@ -14,7 +14,7 @@ char n;
 
 int i;
 
-	for (i = 0; i <= 10)
+	for (i = 0; i < 10; i++)
 	{
 
 	for (n = 'a'; n <= 'z'; n++)
