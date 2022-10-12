@@ -1,13 +1,13 @@
 #include "main.h"
 #include <stdio.h>
 /**
-   *_abs - calcula el valor absoluto de un entero
+   *_abs - computes the absolute value of an integer
    *
-   *Description: encontrar el valor absoluto del entero
+   *Description: the absolute value of an integer and return r
    *
-   *@a: the integer
+   *@r: the integer
    *
-   *Retorno: 0
+   *Return: r
    */
 int _abs(int r)
 {
