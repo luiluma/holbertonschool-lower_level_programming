@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- *_islower - verifica si una letra es minuscula
+ * _islower - verifica si una letra es minuscula
  *
  *c: the letter the function checks
  *
