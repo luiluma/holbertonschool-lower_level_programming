@@ -1,13 +1,13 @@
 #include "main.h"
 /*
- * _islower - verifica si una letra es minuscula
+ * 3-islower - verifica si una letra es minuscula
  *
  *c: the letter the function checks
  *
  *Return: 1 if c is lowercase, 0 otherwise
  */
 
-int _islower(int c)
+int 3-islower(int c)
 
 {
 
