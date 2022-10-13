@@ -12,7 +12,7 @@ int f, c, k;
 	for (f = 0; f <= 9; f++)
 	{
 	for (c = 0; c <= 9; c++)
-
+	{
 	int operation;
 
 	operation = k * c;
@@ -23,7 +23,7 @@ int f, c, k;
 		_putchar(',');
 		_putchar('');
 		_putchar(operation / 10) + '0');
-		_putchar(operation % 10) } '0');
+		_putchar(operation % 10) + '0');
 	}
 
 		else if (c == 0)
@@ -31,16 +31,18 @@ int f, c, k;
 			_putchar(operation + '0');
 		}
 
+		else
+		{
 		_putchar(',');
 		_putchar('');
 		_putchar('');
 		_putchar('operation + '0');
 
 		}
-		}
 
 		k++;
-		_putchar(operation + '0');
-
-		}
-		}
+		_putchar('\n');
+	}
+	}
+	}
+}
