@@ -1,23 +1,46 @@
 #include "main.h"
 /**
-   * main - prints the 9 time table
-   *
-   * Return: Always 0
+   *times_table - prints the 0-9 time table
    */
 void times_table(void)
 {
-int i, j, k;
+int f, c, k;
 
+	k = 0;
 
-	for (i = 0; i < 9; i++)
 	{
-
-	for (j = 0; j < 9; j++)
-
-	k = j * i;
-
-	if (j == 0)
+	for (f = 0; f <= 9; f++)
 	{
+	for (c = 0; c <= 9; c++)
 
-		_putchar(k + '0');
+	int operation;
+
+	operation = k * c;
+
+	if (operation > 9)
+
+	{
+		_putchar(',');
+		_putchar('');
+		_putchar(operation / 10) + '0');
+		_putchar(operation % 10) } '0');
 	}
+
+		else if (c == 0)
+		{
+			_putchar(operation + '0');
+		}
+
+		_putchar(',');
+		_putchar('');
+		_putchar('');
+		_putchar('operation + '0');
+
+		}
+		}
+
+		k++;
+		_putchar(operation + '0');
+
+		}
+		}
