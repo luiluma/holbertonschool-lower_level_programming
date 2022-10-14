@@ -12,10 +12,11 @@
 
 int mul(int a, int b)
 {
+	int r;
 
-	 mul = a * b;
+	r = a * b;
 
 
-		return (mul);
+		return (r);
 
 }
