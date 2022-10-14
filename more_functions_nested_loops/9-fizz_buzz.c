@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
   *main - Prints 1-100 Replaces multiples of 3 Fizz; 5 Buzz, 3 y 5 FizzBuzz
