@@ -8,13 +8,11 @@ NAME = school
 
 RM = rm -f
 
-CFLAGS = gcc -Wall -Werror -Wextra -pedantic
+CFLAGS = -Wall -Werror -Wextra -pedantic
 
 all: $(OBJ)
 
 	$(CC) $(OBJ) -o $(NAME)
-
-.PHONY: clean ofclean fclean re
 
 clean:
 
