@@ -14,14 +14,14 @@ void times_table(void)
 
 	operation = f * c;
 
-	if (operation > 9)
+		if (operation > 9)
 
-	{
+		{
 		_putchar(',');
 		_putchar(' ');
 		_putchar((operation / 10) + '0');
 		_putchar((operation % 10) + '0');
-	}
+		}
 
 		else if (c == 0)
 		{
@@ -35,8 +35,8 @@ void times_table(void)
 		_putchar(operation + '0');
 
 		}
-
-		_putchar('\n');
 	}
+	_putchar('\n');
+
 	}
 	}
