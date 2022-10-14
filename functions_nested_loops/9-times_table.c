@@ -4,19 +4,15 @@
    */
 void times_table(void);
 {
-	int f, c, k;
-
+	int f, c;
 	int operation;
-
-	k = 0;
-
 
 	for (f = 0; f <= 9; f++)
 	{
 	for (c = 0; c <= 9; c++)
 	{
 
-	operation = k * c;
+	operation = f * c;
 
 	if (operation > 9)
 
