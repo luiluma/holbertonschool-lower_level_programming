@@ -8,7 +8,6 @@ int f, c, k;
 
 	k = 0;
 
-	{
 	for (f = 0; f <= 9; f++)
 	{
 	for (c = 0; c <= 9; c++)
@@ -42,6 +41,5 @@ int f, c, k;
 		k++;
 		_putchar('\n');
 	}
-	}
-	}
+	}	
 }
