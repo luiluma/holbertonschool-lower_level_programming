@@ -3,15 +3,14 @@
 /**
    * mul - multiplies two integers
    * @a: the first integer to multiply
+   * @r: result
    * @b: the second integer to multiply
    * Return: the result
    */
-int mul(int a, int b)
+int mul(int a, int b; int r)
 {
-	int mul = a * b;
 
-	mul = a * b;
+	r = a * b;
 
-	return (c);
-	 printf("%d * %d: %d\n", a, b, mul(a, b));	
+	return (r);
 }
