@@ -7,7 +7,7 @@ void times_table(void)
 	int f, c, k;
 	
 	int operation;
-	times_table(void)
+	times_table();
 
 	k = 0;
 
