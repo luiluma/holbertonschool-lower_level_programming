@@ -6,11 +6,8 @@
    * @b: the second integer to multiply
    * Return: the result
    */
-int main(void)
-
+int mul(int a, int b);
 {
-	int a;
-	int b;
 
 	int mul = a * b;
 
