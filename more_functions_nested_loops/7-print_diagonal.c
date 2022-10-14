@@ -10,25 +10,18 @@ void print_diagonal(int n)
 	int i;
 	int j;
 
-	if (size > 0)
-	{
-
-		for (i = 1; i <= size; i++)
+		for (i = 1; i < n; i++)
 		{
 
-			for (j = 1; j <= size; j++)
+			for (j = 1; j < n; j++)
 			{
 
 				putchar(92);
 
-				if (j == size)
 
 					putchar('\n');
 			}
 		}
-
-	}
-	else
 
 		putchar('\n');
 }
