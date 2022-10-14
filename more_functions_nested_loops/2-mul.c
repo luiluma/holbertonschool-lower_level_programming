@@ -9,15 +9,12 @@
    *
    * Return: the result
    */
-
 int mul(int a, int b)
 {
-	int r;
-	int mul;
+	int c;
 
-	r = a * b;
+	c = a * b;
 
-
-		return (r);
+	return (c);
 
 }
