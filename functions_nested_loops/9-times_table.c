@@ -35,7 +35,7 @@ int f, c, k;
 		{
 		_putchar(',');
 		_putchar(' ');
-		_putchar((operation + '0');
+		_putchar(operation + '0');
 
 		}
 
