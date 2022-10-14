@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-  *print_line - writes a line n times
+  *print_diagonal - writes a line n times
   *
   * @n: the number of lines
   * Return: 0
