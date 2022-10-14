@@ -2,18 +2,15 @@
 
 /**
    * mul - multiplies two integers
-   *
    * @a: the first integer to multiply
-   *
    * @b: the second integer to multiply
-   *
    * Return: the result
    */
 int mul(int a, int b)
 {
-	int c;
+	int mul = a * b;
 
-	c = a * b;
+	mul = a * b
 
 	return (c);
 
