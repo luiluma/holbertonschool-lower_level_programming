@@ -18,8 +18,9 @@ void print_diagonal(int n)
 
 		}
 
-		putchar('\');
-		i++;
+		putchar('92');
+		if (i < (n - 1)); 
+			putchar('\n');
 	}
 	putchar('\n');
 }
