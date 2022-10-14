@@ -2,7 +2,7 @@
 /**
    *times_table - prints the 0-9 time table
    */
-void times_table(void);
+void times_table(void)
 {
 	int f, c;
 	int operation;
