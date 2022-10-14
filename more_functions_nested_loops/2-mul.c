@@ -4,7 +4,7 @@
 /**
    * mul - multiplies two integers
    * @a: the first integer to multiply
-   * 
+   *
    * @b: the second integer to multiply
    * Return: 0
    */
@@ -12,5 +12,5 @@ int mul(int a, int b)
 {
 	int mul = a * b;
 
-	return(mul);
+	return (mul);
 }
