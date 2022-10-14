@@ -3,7 +3,7 @@
 /**
   * print_square -  that prints a square, followed by a new line
   *
-  * @size: is the size of the square 
+  * @size: is the size of the square
   * Return: always 0
   */
 
