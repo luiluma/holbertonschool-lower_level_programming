@@ -3,17 +3,16 @@
 /**
   * print_square -  that prints a square, followed by a new line
   *
-  * @size: 
+  * @size: is the size of the square 
   * Return: always 0
   */
 
- void print_square(int size)
+void print_square(int size)
 {
 	int i;
 	int j;
 
 	if (size > 0)
-
 	{
 
 		for (i = 1; i <= size; i++)
@@ -35,4 +34,4 @@
 	else
 		putchar('\n');
 
-}	
+}
