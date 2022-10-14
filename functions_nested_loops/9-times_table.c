@@ -7,7 +7,10 @@ void times_table(void)
 	int f, c, k;
 	
 	int operation;
+	times_table(void)
+
 	k = 0;
+
 
 	for (f = 0; f <= 9; f++)
 	{
