@@ -21,9 +21,9 @@ int f, c, k;
 
 	{
 		_putchar(',');
-		_putchar('');
-		_putchar(operation / 10) + '0');
-		_putchar(operation % 10) + '0');
+		_putchar(' ');
+		_putchar((operation / 10) + '0');
+		_putchar((operation % 10) + '0');
 	}
 
 		else if (c == 0)
@@ -34,9 +34,8 @@ int f, c, k;
 		else
 		{
 		_putchar(',');
-		_putchar('');
-		_putchar('');
-		_putchar('operation + '0');
+		_putchar(' ');
+		_putchar((operation + '0');
 
 		}
 
