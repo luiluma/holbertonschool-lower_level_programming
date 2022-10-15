@@ -11,33 +11,33 @@ int main(void)
 {
 	int i;
 
-	char Fizz, Buzz, FizzBuzz;
-
 	for (i = 1; i <= 100; i++)
 	{
 
-		if (i % 3 == 0 && i % 5 == 0)
+		if (i % 3 == 0 && i % 5 != 0)
 
-			printf("%d", FizzBuzz);
+			printf("Fizz ");
 
-		else if ((i % 3) == 0)
+		else if (i % 5 == 0 && i % 3 != 0)
+		{
+			printf("Buzz");
 
-			printf("%d", Fizz);
+			if (i < 100)
 
-		else if ((i % 5) == 0)
+				printf(" ");
+		}
+
+		else if (i % 5 == 0 && i % 3 == 0)
 		{
 
-			if (i == 100)
-
-			printf("%d", Buzz);
-
+			printf("FizzBuzz ");
+		}
 		else
-			printf("%d", Buzz);
+		{
+			printf("%d ", i);
 
 		}
 
-		else
-			printf("%i", i);
 
 	}
 
