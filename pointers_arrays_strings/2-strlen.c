@@ -7,7 +7,6 @@
   * RETURN: the length of a string
   */
 int _strlen(char *s)
-
 {
 	int c = 0;
 
