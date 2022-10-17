@@ -3,21 +3,15 @@
 
 /**
   *  _strlen - strlen
-  *
   * @s: the string  whose length to return
-  *
   * RETURN: the length of a string
   */
 
 int _strlen(char *s)
 {
 
-	int c = 0;
+	int c;
 
-	while (s[c] != 0)
-	{
-		c++;
-	}
-
+	c = strlen(c);
 	return (c);
 }
