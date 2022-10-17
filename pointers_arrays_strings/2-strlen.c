@@ -4,7 +4,7 @@
 /**
   * _strlen - string long
   * @s: var
-  * RETURN: 0
+  * Return: 0
   */
 
 int _strlen(char *s)
