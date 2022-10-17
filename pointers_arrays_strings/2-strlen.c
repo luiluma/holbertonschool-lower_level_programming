@@ -3,8 +3,8 @@
 
 /**
   *  _strlen - strlen
-  * @s: the string  whose length to return
-  * RETURN: the length of a string
+  * @s: var
+  * RETURN: 0
   */
 
 int _strlen(char *s)
