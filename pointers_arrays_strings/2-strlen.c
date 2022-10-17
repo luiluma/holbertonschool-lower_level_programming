@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
-  * _strlen - returns the length of a string
+  *  _strlen - strlen
   *
   * @s: the string  whose length to return
   *
@@ -12,7 +12,7 @@
 int _strlen(char *s)
 {
 
-	int c;
+	int c = 0;
 
 	while (s[c] != 0)
 	{
