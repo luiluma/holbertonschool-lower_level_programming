@@ -9,7 +9,7 @@
   * Return: a pointer to the resulting string @dest
   */
 
-char *_strncat(char *dest, char *src, int n);
+char *_strncat(char *dest, char *src, int n)
 {
 	int len1 = 0;
 	int len2 = 0;
