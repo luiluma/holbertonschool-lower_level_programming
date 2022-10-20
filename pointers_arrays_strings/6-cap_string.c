@@ -2,6 +2,7 @@
 
 /**
   * string_toupper - code
+  * *cap_string - capitalizes all words of a string
   *  @scr: pointer
   * Return: scr
   */
