@@ -1,26 +1,26 @@
 #include "main.h"
+
 /**
-  * cap_string - capitalizes all words of a string.
-  *
-  * @a: pointers
-  * Return: 0
+  * string_toupper - code
+  *  @scr: pointer
+  * Return: scr
   */
-
-char *cap_string(char *a)
+char *cap_string(char *scr)
 {
-	int i, j, k;
-	char b[] = {9, 10, 32, 33, 34, 40, 41, 44, 46, 59, 63, 123, 125};
+	int x, y, z;
+	char p[] = {44, 59, 33, 32, 46, 63, 34, 40, 41, 123, 125, 10, 9};
+	z = p[3];
 
-	 j = _strlen(a);
-	for (i = 0; i < j; i++)
+	y = strlen(scr);
+	x = 0;
+	while (x < y)
 	{
-		for (k = 0; k <= 12; k++)
+		if (scr[x] == z)
 		{
-			 if (a[i] == b[k])
-			 if (a[i + 1] >= 97 && a[i + 1] <= 122)
-			 if (a[i + 1] != b[1])
-			 a[i + 1] = a[i + 1] - 32;
+			if (scr[x + 1] >= 'a' && scr[x + 1] <= 'z')
+				scr[x + 1] -= 32;
 		}
-	}	
-	return(a);
+		x++;
+	}
+	return (scr);
 }
