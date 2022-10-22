@@ -2,6 +2,7 @@
 #include <stdio.h>
  /**
     * print_chessboard - code
+    * Description: print_chessboard
     * @a: array
     * Return: 0
     */
