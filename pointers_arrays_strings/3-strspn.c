@@ -20,7 +20,8 @@ unsigned int _strspn(char *s, char *accept)
 		if (s[a] != 32)
 		{
 			for (j = 0; accept[j] != '\0'; j++)
-			{																						if (s[a] == accept[j])
+			{
+				if (s[a] == accept[j])
 					c++;
 			}
 		}
