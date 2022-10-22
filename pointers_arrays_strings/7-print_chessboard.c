@@ -2,13 +2,14 @@
 #include <stdio.h>
  /**
     * print_chessboard - code
-    * Description: print_chessboard
+    *
     * @a: array
     * Return: 0
     */
-
 void print_chessboard(char (*a)[8])
 {
+
+
 	int c, f;
 
 	for (c = 0; c < 8; c++)
