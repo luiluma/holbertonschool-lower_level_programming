@@ -23,7 +23,7 @@ int root(int n, int i)
 		return (root(n, i + 1));
 
 	  return (1);
-	 }
+
 }
 
 /**
