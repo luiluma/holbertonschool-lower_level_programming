@@ -5,7 +5,7 @@
    *
    * @argc: argument counter
    * @argv: argument vector
-   * @i: variable
+   *
    * Return: 0
    */
 
