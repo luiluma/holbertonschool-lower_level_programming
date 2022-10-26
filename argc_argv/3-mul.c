@@ -5,6 +5,8 @@
   *
   * @argc: arg counter
   * @argv: arg vector (matriz)
+  * @atoi: number integer
+  * @result: result multiples number
   *
   * Return: 0 is good, if there is an Error
   */
