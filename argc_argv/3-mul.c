@@ -8,7 +8,6 @@
   * @argc: arg counter
   * @argv: arg vector (matriz)
   * @atoi: number integer
-  * @result: result multiples number
   *
   * Return: 0 is good, if there is an Error
   */
@@ -26,7 +25,7 @@ int main(int argc, char *argv[])
 
 	num = atoi(argv[1]);
 	number = atoi(argv[2]);
-	resutl = num * number;
+	result = num * number;
 
 	printf("%i\n", result);
 
