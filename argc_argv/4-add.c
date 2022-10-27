@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 	{
 		for (a = 0; argv[i][a]; a++)
 		{
-			if (isdigit(argv[i][a] == 0)
+			if (isdigit(argv[i][a]) == 0)
 			{
 				puts("Error");
 				return (1);
@@ -30,7 +30,6 @@ int main(int argc, char *argv[])
 	{
 		x += atoi(argv[i]);
 	}
-
 	printf("%d\n", x);
 	return (0);
 }
