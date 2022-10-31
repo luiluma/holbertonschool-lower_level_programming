@@ -26,7 +26,7 @@ char *_strdup(char *str);
 
 	while (str[var2]);
 	{
-		pointer[var2] = str[var1];
+		pointer[var2] = str[var2];
 		var2++;
 	}
 
