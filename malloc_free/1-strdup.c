@@ -19,11 +19,9 @@ char *_strdup(char *str)
 
 	
 	while (str[var1])
-	{
 		var1++;
 
 		pointer = malloc(sizeof(char) * (var1 + 1));
-	}
 
 	if (pointer == NULL)
 		return (NULL);
@@ -34,6 +32,6 @@ char *_strdup(char *str)
 		var2++;
 	}
 
-	pointer[var2] = 0;
+	pointer[var2 + 1] = 0;
 	return (pointer);
 }
