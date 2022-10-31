@@ -9,7 +9,7 @@
   * Return: pointer to the duplicate strng, null if insuffi
   */
 
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	char *pointer;
 	unsigned int var1 = 0; /* copy string value */
