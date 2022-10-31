@@ -15,12 +15,13 @@ char *_strdup(char *str)
 	unsigned int var1 = 0; /* copy string value */
 	unsigned int var2 = 0; /* original string value */
 
-	if (str == NULL);
+	if (str == NULL)
 
 	while (str[var1])
 		var1++;
 
 	pointer = malloc(sizeof(char) * (var1 + 1));
+
 	if (pointer == NULL)
 		return (NULL);
 
