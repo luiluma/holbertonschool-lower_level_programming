@@ -12,26 +12,22 @@
 char *_strdup(char *str)
 {
 	char *pointer;
-	unsigned int var1 = 0; /* copy string value */
-	unsigned int var2 = 0; /* original string value */
+	int var1, var2;
 
 	if (str == NULL)
-
+		return (NULL);
 	
-	while (str[var1])
-		var1++;
+	for (var1 = 0; str[var1] != '\0'; var1++)
 
-	pointer = malloc(sizeof(char) * (var1 + 1));
-
+	pointer = malloc(var1 * sizeof(*pointer) + 1);
 	if (pointer == NULL)
 		return (NULL);
 
-	while (str[var2]);
-	{
-		pointer[var2] = str[var2];
-		var2++;
-	}
+	for (var2 = 0; var2 < var1; var2++)
 
-	pointer[var2 + 1] = 0;
+		pointer[var2] = str[var2];
+
+	pointer[var2] = '\0';
+
 	return (pointer);
 }
