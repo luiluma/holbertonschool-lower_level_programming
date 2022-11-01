@@ -33,7 +33,7 @@ char *str_concat(char *s1, char *s2)
 	{
 	}
 
-	pointer = malloc(a + b + 1) * sizeof(char);
+	pointer = malloc((a + b + 1) * sizeof(char));
 	if (poniter == NULL)
 	{
 		return (NULL);
@@ -47,6 +47,7 @@ char *str_concat(char *s1, char *s2)
 	for (d = 0; d < b; d++)
 	{
 		pointer[d] = s2[d];
+		c++;
 	}
 
 	pointer[c] = '\0';
