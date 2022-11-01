@@ -28,7 +28,7 @@ char *_strdup(char *str)
 	for (var1 = 0; str[var1]; var1++)
 	{
 		pointer[var1] = str[var1];
-	
+
 	}
 
 	pointer[var2] = '\0';
