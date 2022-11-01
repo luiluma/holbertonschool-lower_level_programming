@@ -16,16 +16,20 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 		return (NULL);
-	
-	for (var1 = 0; str[var1] != '\0'; var1++)
 
-	pointer = malloc(var1 * sizeof(*pointer) + 1);
+	for (var1 = 0; str[var1] != '\0'; var1++)
+		var2++;
+
+	pointer = malloc(sizeof(char) * (var2 + 1));
+
 	if (pointer == NULL)
 		return (NULL);
 
-	for (var2 = 0; var2 < var1; var2++)
-
-		pointer[var2] = str[var2];
+	for (var1 = 0; str[var1]; var1++)
+	{
+		pointer[var1] = str[var1];
+	
+	}
 
 	pointer[var2] = '\0';
 
