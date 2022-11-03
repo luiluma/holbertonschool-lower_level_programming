@@ -2,7 +2,7 @@
 
 /**
   *main - name file
-  * @FILE: arch
+  * @_FILE: arch
   * Return: 0
   */
 int main(void)
