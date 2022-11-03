@@ -2,11 +2,11 @@
 
 /**
   *main - name file
-  * @_FILE: arch
+  * @FILE: arch
   * Return: 0
   */
 int main(void)
 {
-	printf("%s\n", _FILE_);
+	printf("%s\n", FILE_);
 	return (0);
 }
