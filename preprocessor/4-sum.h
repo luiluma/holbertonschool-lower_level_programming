@@ -8,8 +8,11 @@
 int main(void)
 {
 	int x;
+	int y;
+	int SUM;
 
-	x = SUM(x, y)
-	printf("%d\n", x);
+	SUM = (x, y) (x + y);
+
+	printf("%d\n", SUM);
 	return (0);
 }
