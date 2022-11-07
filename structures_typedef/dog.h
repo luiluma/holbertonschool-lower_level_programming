@@ -15,13 +15,14 @@ struct dog
 	char *name;
 	float age;
 	char *owner;
-}
+};
+
 int main(void)
 {
 	struct dog dog1;
 
 	dog1.name = "zeus";
-	do1.age = 5;
+	dog1.age = 5;
 	dog1.owner = "luisa";
 
 	return (0);
