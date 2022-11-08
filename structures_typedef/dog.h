@@ -17,7 +17,7 @@ struct dog
 	char *owner;
 };
 
-int main(void)
+int holbi(void)
 {
 	struct dog dog1;
 
