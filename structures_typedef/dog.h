@@ -1,5 +1,6 @@
+#ifndef _DOG_H_
+#define _DOG_H_
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
   * struct dog - struct of the dog
@@ -16,15 +17,4 @@ struct dog
 	float age;
 	char *owner;
 };
-
-int holbi(void)
-{
-	struct dog dog1;
-
-	dog1.name = "zeus";
-	dog1.age = 5;
-	dog1.owner = "luisa";
-
-	return (0);
-}
-
+#endif
