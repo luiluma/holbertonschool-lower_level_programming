@@ -24,14 +24,14 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (dog == NULL)
 		return (NULL);
 
-	point = _strdup(name);
+	point = strdup(name);
 
 	if (!point && name)
 	{
 		free(dog);
 		return (NULL);
 	}
-	p = _strdup(owner);
+	p = strdup(owner);
 	if (!p && owner)
 	{
 		free(point);
