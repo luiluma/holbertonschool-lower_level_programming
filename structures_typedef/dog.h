@@ -17,6 +17,11 @@ struct dog
 	char *owner;
 };
 
+/** PROTOTYPES*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
 /**
   * typedef dog_t - define name type struct dog
   */
