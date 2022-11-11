@@ -1,7 +1,4 @@
 #include "dog.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 /**
   * new_dog - create dog new
@@ -13,7 +10,7 @@
   * Return: 0
   */
 
-int dog_t *new_dog(char *name, float age, char *owner)
+dog_t *new_dog(char *name, float age, char *owner)
 {
 	    int namel, ownerl, n, o;
 	    dog_t *newdog;
