@@ -13,7 +13,7 @@
   * Return: 0
   */
 
-dog_tnew_dog(char name, float age, charowner)
+dog_tnew_dog(char *name, float age, char *owner)
 {
 	    int namel, ownerl, n, o;
 	    dog_t *newdog;
