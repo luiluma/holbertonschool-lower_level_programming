@@ -1,5 +1,7 @@
 #include "dog.h"
 #include <stdio.h>
+#include <stdlib.h>
+
 /**
   * new_dog - create dog new
   * @name: name dog
@@ -43,6 +45,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 }
 
 #include "dog.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
   * _strdup - copy dog
