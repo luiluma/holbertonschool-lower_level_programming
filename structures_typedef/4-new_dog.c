@@ -6,7 +6,6 @@
 /**
   * new_dog - create dog new
   *
-  * _strdup - cpy string
   * @name: name dog
   * @age: age dog
   * @owner: onwer of dog
@@ -14,7 +13,7 @@
   * Return: 0
   */
 
-int dog_tnew_dog(char *name, float age, char *owner)
+int dog_t *new_dog(char *name, float age, char *owner)
 {
 	    int namel, ownerl, n, o;
 	    dog_t *newdog;
