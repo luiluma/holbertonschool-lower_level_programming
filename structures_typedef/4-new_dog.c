@@ -4,6 +4,8 @@
 
 /**
   * new_dog - create dog new
+  *
+  * _strdup - cpy string
   * @name: name dog
   * @age: age dog
   * @owner: onwer of dog
@@ -22,9 +24,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (dog == NULL)
 		return (NULL);
 
-	pointer = _strdup(name);
+	point = _strdup(name);
 
-	if (!pointer && name)
+	if (!point && name)
 	{
 		free(dog);
 		return (NULL);
@@ -32,8 +34,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 	p = _strdup(owner);
 	if (!p && owner)
 	{
-		free(pointer);
-		fre(dog);
+		free(point);
+		free(dog);
 		return(NULL);
 	}
 
