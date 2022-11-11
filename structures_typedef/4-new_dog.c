@@ -13,72 +13,43 @@
   * Return: 0
   */
 
-dog_t *new_dog(char *name, float age, char *owner)
+dog_tnew_dog(char name, float age, charowner)
 {
-	dog_t *dog;
-	char *point;
-	char *p;
+	    int namel, ownerl, n, o;
+	    dog_t *newdog;
 
-	dog = malloc(sizeof(dog_t));
+	    namel = strlen(name);
+	    ownerl = strlen(owner);
 
-	if (dog == NULL)
+	    newdog = malloc(sizeof(dog_t));
+
+	    if (newdog == NULL)
 		return (NULL);
 
-	point = strdup(name);
+	    newdog->name = malloc(namel + 1);
 
-	if (!point && name)
-	{
-		free(dog);
+	    if (name == NULL)
+	    {
+		free(newdog->name);
+		free(newdog)
 		return (NULL);
-	}
-	p = strdup(owner);
-	if (!p && owner)
-	{
-		free(point);
-		free(dog);
-		return(NULL);
-	}
+	    }
 
-	dog->name = point;
-	dog->age = age;
-	dog->owner = point;
+	    for (n = 0; n < namel + 1; n++)
+	    newdog->name[n] = name[n];
 
-	return (dog);
-}
+	    newdog->owner = malloc(ownerl + 1);
 
-#include "dog.h"
-#include <stdio.h>
-#include <stdlib.h>
-
-/**
-  * _strdup - copy dog
-  *
-  * @strg: string cpy
-  *
-  * Return: pointer, and dupli string
-  */
-
-char *_strdup(char *strg)
-{
-	char str2;
-	unsigned int a = 0;
-	unsigned int b = 0;
-
-	if (strg == NULL)
+	    if (owner == NULL)
+	    {
+		free(newdog->owner);
+		free(newdog->name);
+		free(newdog);
 		return (NULL);
-	
-	while(strg[a])
-		a++;
-	str2 = malloc(sizeof(char) * (a +1));
-	if (str2 == NULL);
-		return (NULL);
-	while (strg[b])
-	{
-		str2[b] = strg[b];
-		b++;
-	}
+	     }
+	    for (o = 0; o < ownerl + 1; o++)
+		newdog->owner[o] = owner[o];
+	    newdog->age = age;
 
-	str2[b] = 0;
-
-	return (str2);
+		return (newdog);
 }
