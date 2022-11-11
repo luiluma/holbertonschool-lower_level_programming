@@ -27,9 +27,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 		if (name == NULL)
 		{
-			free(newdog->name);
-			free(newdog);
-			return (NULL);
+		free(newdog->name);
+		free(newdog);
+		return (NULL);
 		}
 
 		for (n = 0; n < namel + 1; n++)
@@ -39,10 +39,10 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 		if (owner == NULL)
 		{
-			free(newdog->owner);
-			free(newdog->name);
-			free(newdog);
-			return (NULL);
+		free(newdog->owner);
+		free(newdog->name);
+		free(newdog);
+		return (NULL);
 		}
 		for (o = 0; o < ownerl + 1; o++)
 		newdog->owner[o] = owner[o];
