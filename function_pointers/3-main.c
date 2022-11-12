@@ -1,4 +1,6 @@
 #include "3-calc.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
    * main - function
@@ -9,8 +11,7 @@
 
 int main(int argc, char *argv[])
 {
-	int a;
-	int b;
+	int a, b;
 	int (*pointer)(int, int);
 
 	if (argc != 4)
@@ -33,7 +34,7 @@ int main(int argc, char *argv[])
 	}
 
 	a = atoi(argv[1]);
-	b = atoi(argv[2]);
+	b = atoi(argv[3]);
 
 	printf("%d\n", pointer(a, b));
 
