@@ -1,5 +1,5 @@
-#ifndef _CALC_H_
-#define _CALC_H_
+#ifndef CALC_H
+#define CALC_H
 
 /**
   * struct op - Struct op
@@ -7,6 +7,7 @@
   * @op: the operator
   * @f: the function associated
   */
+
 typedef struct op
 {
 	char *op;
