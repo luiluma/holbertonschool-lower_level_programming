@@ -9,9 +9,9 @@
 /**
  * struct element - linked list
  * 
- * @s: string
+ * @str: string
  * @long: length string
- * @point: points to next node
+ * @sig: points to next node
  */
 
 typedef struct element
