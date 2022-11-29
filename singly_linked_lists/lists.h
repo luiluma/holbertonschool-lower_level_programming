@@ -8,7 +8,7 @@
 
 /**
  * struct element - linked list
- * 
+ *
  * @str: string
  * @len: length string
  * @next: points to next node
@@ -20,7 +20,7 @@ typedef struct element
     unsigned int len;
 	struct element *next;
 
-} list_t;
+}list_t;
 
 /*prototype*/
 
