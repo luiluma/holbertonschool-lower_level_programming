@@ -10,13 +10,13 @@
  * struct element - linked list
  * 
  * @str: string
- * @long: length string
+ * @len1: length string
  * @sig: points to next node
  */
 
 typedef struct element
 {
-    unsigned int long;
+    unsigned int len1;
 	char *str;
 	struct element *sig;
 
