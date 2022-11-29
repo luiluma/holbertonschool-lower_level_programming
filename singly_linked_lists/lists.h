@@ -10,15 +10,15 @@
  * struct element - linked list
  * 
  * @str: string
- * @len1: length string
- * @sig: points to next node
+ * @len: length string
+ * @next: points to next node
  */
 
 typedef struct element
 {
-    unsigned int len1;
+    int len;
 	char *str;
-	struct element *sig;
+	struct element *next;
 
 } list_t;
 
