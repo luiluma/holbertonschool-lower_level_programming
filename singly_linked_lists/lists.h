@@ -16,9 +16,9 @@
 
 typedef struct element
 {
-    char *str;
-    unsigned int len;
-    struct element *next;
+	char *str;
+	unsigned int len;
+	struct element *next;
 
 }list_t;
 
