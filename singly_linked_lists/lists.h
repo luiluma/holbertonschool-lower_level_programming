@@ -20,7 +20,7 @@ typedef struct element
 	unsigned int len;
 	struct element *next;
 
-}list_t;
+} list_t;
 
 /*prototype*/
 
