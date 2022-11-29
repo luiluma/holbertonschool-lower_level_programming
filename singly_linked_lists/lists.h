@@ -1,5 +1,5 @@
-#ifndef LISTS_H
-#define LISTS_H
+#ifndef _LISTS_H_
+#define _LISTS_H_
 
 /*libraries*/
 #include <stdio.h>
@@ -25,3 +25,5 @@ typedef struct element
 /*prototype*/
 
 size_t print_list(const list_t *h);
+#endif
+
