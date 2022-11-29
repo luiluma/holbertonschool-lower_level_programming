@@ -16,7 +16,7 @@
 
 typedef struct element
 {
-    int long;
+    unsigned int long;
 	char *str;
 	struct element *sig;
 
