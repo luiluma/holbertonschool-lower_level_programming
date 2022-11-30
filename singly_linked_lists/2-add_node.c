@@ -3,7 +3,7 @@
 /**
  * add_node - new node at beginning of list
  * @head: Start pointer of node
- * @str: string 
+ * @str: string
  * Return: the address of the new element, or NULL if it failed
  */
 
