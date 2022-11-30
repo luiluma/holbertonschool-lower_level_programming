@@ -5,7 +5,7 @@
  *
  * @h: point print to list
  *
- * return: count 
+ * Return: count
 */
 
 size_t list_len(const list_t *h)
