@@ -2,7 +2,7 @@
 /**
  * add_nodeint_end - new node at beginning of list
  * @head: Start pointer of node
- * @str: string
+ * @n: node int number
  * Return: the address of the new element, or NULL if it failed
  */
 
