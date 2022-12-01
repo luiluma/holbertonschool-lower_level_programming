@@ -1,11 +1,9 @@
 #include "lists.h"
-
 /**
- * list_len - elements in a linked
+ * listint_len - elements in a linked
  *
  * @h: point print to list
- *
- * Return: count
+ * Return: i
 */
 size_t listint_len(const listint_t *h)
 {
@@ -13,7 +11,7 @@ size_t listint_len(const listint_t *h)
 
 	while (h)
 	{
-        i++;
+		i++;
 		h = h->next;
 	}
 	return (i);
