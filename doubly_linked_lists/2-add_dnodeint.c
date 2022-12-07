@@ -9,13 +9,23 @@
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
 	dlistint_t *point;
+	dlistint_t *t;
 
 	point = malloc(sizeof(dlistint_t));
-	if (point == NULL)
+	if (point == NULL || head == NULL)
 		return (NULL);
 
+	t = *head;
 	point->n = n;
-	point->next = *head;
+
+	if (*head == NULL)
+		point->next = NULL;
+	else
+	{
+		point->next = t;
+		t->prev = point;
+	}
+	point->prev = NULL;
 	*head = point;
 
 	return (point);
