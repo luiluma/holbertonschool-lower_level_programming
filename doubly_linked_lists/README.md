@@ -14,10 +14,10 @@
 <p>2. The Bidirectional Doubly Linked List: This type of list allows you to traverse the list in both directions, forward and backward.</p>
 
 <h3>There are some key terms that are used when talking about doubly linked lists:
-- Node: each element of the list is called a node. Each node contains data and references to the previous and next node in the list.
+<p>- Node: each element of the list is called a node. Each node contains data and references to the previous and next node in the list.</p>
 Head: The first node in the list is called the head.
-- Queue: the last node in the list is called the queue.
-- Next: The next reference in a node points to the next node in the list.
-- Previous: The previous reference of a node points to the previous node in the list.</h3>
+<p>- Queue: the last node in the list is called the queue.</p>
+<p>- Next: The next reference in a node points to the next node in the list.</p>
+<p>- Previous: The previous reference of a node points to the previous node in the list.</h3>
 
 <img src="https://i.stack.imgur.com/vXAzm.png" width="300" height="auto"/>
