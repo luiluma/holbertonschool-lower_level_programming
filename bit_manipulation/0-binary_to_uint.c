@@ -11,32 +11,26 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	int i = 0;
-	unsigned int n = 0;
-	int power = 0;
+	int n, i = 0;
+	unsigned int dec_value = 0;
 
-	if (b == '\0')
+	if (b == NULL)
 		return (0);
-
-	while (b[i + 1])
-		i++;
-
-	while (i >= 0)
-	{
-		if (b[i] == '0')
-		{
-			i--;
-			power++;
-		}
-		else if (b[i] == '1')
-		{
-			n += (1 << power);
-			i--;
-			power++;
-		}
-		else
+	for (n = 0; b[n] != '\0'; n++)
+		if (b[n] != 48 && b[n] != 49)
 			return (0);
+	while (b[i])
+	{
+		if (b[i] == 49)
+		{
+		dec_value = (dec_value << 1) | 1;
+		}
+		else if (b[i] == 48)
+		{
+		dec_value = (dec_value << 1);
+		}
+		i++;
 	}
-	return (n);
+	return (dec_value);
 }
 
